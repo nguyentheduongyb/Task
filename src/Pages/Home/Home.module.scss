@@ -1,0 +1,213 @@
+.wrapper {
+    --search-btn-width: 32px;
+    height: var(--default-layout-header, 60px);
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    width: 100%;
+    display: flex;
+    background-color:rgb(248,249,249);
+    align-items: center;
+}
+.box-width{
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #ddd;
+}
+
+.w-70{
+    width: 70%;
+}
+.moblie-activation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span{
+        font-size: 1.6rem;
+    }
+}
+// introduce
+
+.introduce-head{
+    display: none;
+}
+.activation{
+    display: none;
+}
+.commit-item:first-child{
+    display: none;
+}
+
+
+.box-continue{
+    padding: 15px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    border-radius:4px;
+    color: #fff;
+    border:none;
+    outline: none;
+}
+.commit{
+    width: 100%;
+    display: flex;
+    margin-top: 68px;
+    background-color: #F6F6F6;
+    padding: 30px 0;
+}
+.commit-item{
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #ddd;
+
+}
+
+    h4{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+span{
+    font-size: 1rem;
+}
+.step{
+    display: none;
+}
+.text-des{
+    width: 95%;
+}
+.text-thin{
+    font-weight: 100;
+}
+.index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    margin-right: 12px;
+   width: 24px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.line{
+    background-color: #ddd;
+    width: 48px;
+    height: 2px;
+    margin: 0 12px;
+}
+
+.modal-left{
+color: #fff;
+background-color: #00576D;
+
+}
+.modal-step{
+    padding: 20px;
+    background-color: #fff;
+    color: #00576D;
+
+    .index{
+        color: #fff;
+    }
+}
+.modal-left .index{
+    background-color: #007491;
+}
+.modal-left .index-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    margin-right: 12px;
+   width: 28px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.line1{
+    background-color: #ddd;
+    width: 2px;
+    height: 14px;
+    margin-left: 11px;
+}
+.modal-right{
+padding: 20px;
+color: #00576D;
+background-color: #ddd;
+}
+.form-custom{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 4px;
+
+    input{
+    width: 80%;
+    background-color: transparent;
+    overflow: hidden;
+}
+}
+
+.by-click{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1;
+    color: #242323;
+}
+
+@media (min-width: 740px) {
+
+}
+@media (min-width: 1113px) {
+    .moblie-activation{
+    display: none;
+    
+}
+    .activation{
+        display: flex;
+        border-right: 2px solid #ddd;
+    }
+    span{
+        font-size: 1.6rem;
+    }
+    
+    h4{
+        font-size: 1.6rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+    .step{
+    display: block;
+    }
+    .text-des{
+    width: 70%;
+    }
+    .box-width{
+    font-size: 1.6rem;
+    }
+    .modal-step{
+    padding: 20px;
+    background-color: #00576D;
+    color: #fff;
+}
+.by-click{
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 1;
+    color: #7c7676;
+}
+    .commit-item:first-child{
+    display: flex;
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+}
