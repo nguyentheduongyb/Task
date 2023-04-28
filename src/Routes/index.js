@@ -3,7 +3,7 @@ import Detail from "~/Pages/Detail";
 
 //Public Routes
 const publicRoutes = [
-    { path: "/BroFlix", component: Home },
+    { path: "/", component: Home },
     { path: "/detail", component: Detail },
 ];
 

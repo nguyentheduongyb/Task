@@ -8,7 +8,7 @@ import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload, faMagnifyingGlass, faCircle, faGlobe, faShield, faCheck, faEnvelope, faUser, faMobileButton } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faMagnifyingGlass, faCircle, faGlobe, faShield, faCheck, faEnvelope, faUser, faMobileButton, faShieldAlt, faShieldHeart, } from "@fortawesome/free-solid-svg-icons";
 const cx = ClassNames.bind(styles);
 
 function Home() {
@@ -25,7 +25,8 @@ function Home() {
             <header className={cx("wrapper", "mb-5")}>
                 <div className="container d-flex justify-content-between align-items-center">
                     <div className={cx("box-width")}>200 x 100</div>
-                    <div><FontAwesomeIcon className="me-3" icon={faUser} /><FontAwesomeIcon icon={faMagnifyingGlass} /></div>
+                    <div className={cx("header-mobile")}><FontAwesomeIcon icon={faShieldHeart} /></div>
+                    <div className={cx("header-pc")}><FontAwesomeIcon className="me-3" icon={faUser} /><FontAwesomeIcon icon={faMagnifyingGlass} /></div>
                 </div>
             </header>
             <div className="container">

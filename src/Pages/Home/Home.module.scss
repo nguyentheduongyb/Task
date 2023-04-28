@@ -12,7 +12,12 @@
     font-size: 1rem;
     background-color: #ddd;
 }
-
+.header-mobile{
+    display: block;
+}
+.header-pc{
+    display: none;
+}
 .w-70{
     width: 70%;
 }
@@ -168,6 +173,12 @@ background-color: #ddd;
     .moblie-activation{
     display: none;
     
+}
+.header-mobile{
+    display: none;
+}
+.header-pc{
+    display: block;
 }
     .activation{
         display: flex;
