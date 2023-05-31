@@ -3,7 +3,7 @@ import Detail from "~/Pages/Detail";
 
 //Public Routes
 const publicRoutes = [
-    { path: "/", component: Home },
+    { path: "/Task", component: Home },
     { path: "/detail", component: Detail },
 ];
 
